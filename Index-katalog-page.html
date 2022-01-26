@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+
+  <body>
+
+    <header class="page-header">
+      <nav class="navigation">
+        <a href="#">
+          <img class="page-header-logo" alt="Логотип Седона." src="">
+        </a>
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О Седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Гостиницы</a>
+          </li>
+        </ul>
+
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Поиск</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Избранное</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Вход</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <header class="inner-page">
+        <h1>Гостиницы Седоны</h1>
+        <ol class="breadcrumps">
+          <li class="breadcrumps-item">
+            <a class="breadcrumps-link" href="index.html">
+              <img class="breadcrumps-pic" src="#">
+            </a>
+            </li>
+            <li class="breadcrumps-item">
+              <a class="breadcrumps-link" href="#">Гостиницы</a>
+            </li>
+        </ol>
+      </header>
+<section class="page-inner-filter">
+
+  <p class="filter-text">Инфраструктура:</p>
+  <label><input type="checkbox" checked>Бассейн</label><br>
+  <label><input type="checkbox" checked>Парковка</label><br>
+  <label><input type="checkbox">Wi-Fi</label>
+  <p class="filter-title">Тип жилья:</p>
+  <label><input type="radio" name="apartments" value="hotel" checked>Гостиница</label><br>
+  <label><input type="radio" name="apartments" value="motel">Мотель</label><br>
+  <label><input type="radio" name="apartments" value="apartments">Апартаменты</label>
+  <p class="filter-text">Стоимость, ₽:</p>
+  <!--поле для вывода значиний задаем через table или иначе? каким образом нужно связать поля вывода значений и ползунок-->
+  <input type="table" placeholder="0"><input type="table" placeholder="9000"><br>
+  <input type="range" min="0" max="9000" step="5000">
+
+</section>
+
+
+      <section>
+        <!-- как связать результаты поиска с фильтрами и счетчиком в "Найдено гостиниц"?-->
+        <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+        <p class="search-results">Найдено гостиниц: 38</p>
+        <form class="catalog-filter" action="#" method="get">
+          <select class="filter-form">
+            <option selected value="s1">Сначала дешёвые</option>
+          </select>
+        </form>
+<!--нужно ли в button добавлять img в данном случае?-->
+        <ul class="item-view">
+          <li class="buttun">
+            <button class="item-view">"
+            </button>
+          </li>
+          <li class="buttun">
+            <button class="item-view"></button>
+          </li>
+          <li class="buttun">
+            <button class="item-view"></button>
+          </li>
+        </ul>
+
+
+
+        <ol class="catalog-list">
+          <li class="catalog-item">
+            <img src="#" alt="Amara Resort & Spa">
+            <!--наименование гостиниц это h3 или просто p?-->
+            <p class="catalog-item-title">Amara Resort & Spa</p>
+            <p class="catalog-text">Гостиница</p>
+            <p class="catalog-text">От 4000 ₽</p>
+            <button class="buton-inform">подробнее</button>
+            <button class="button-list">В избранное</button>
+            <p class="rating">Рейтинг: 8,5</p>
+          </li>
+          <li class="catalog-item-title">
+            <img src="#" alt="Desert Quail Inn">
+            <p class="catalog-item-title">Desert Quail Inn</p>
+            <p class="catalog-text">Гостиница</p>
+            <p class="catalog-text">От 3000 ₽</p>
+            <button class="buton-inform">подробнее</button>
+            <button class="button-list">В избранное</button>
+            <p class="rating">Рейтинг: 8,9</p>
+          </li>
+          <li class="catalog-item-title">
+            <img src="#" alt="Villas at Poco Diablo">
+            <p class="catalog-item-title">Villas at Poco Diablo</p>
+            <p class="catalog-text">Гостиница</p>
+            <p class="catalog-text">От 2000 ₽</p>
+            <button class="buton-inform">подробнее</button>
+            <button class="button-list">В избранное</button>
+            <p class="rating">Рейтинг: 9,2</p>
+          </li>
+          <li class="catalog-item">
+            <img src="#" alt="GreenTree Inn">
+
+            <p class="catalog-item-title">GreenTree Inn</p>
+            <p class="catalog-text">Гостиница</p>
+            <p class="catalog-text">От 3000 ₽</p>
+            <button class="buton-inform">подробнее</button>
+            <button class="button-list">В избранное</button>
+            <p class="rating">Рейтинг: 9,2</p>
+          </li>
+        </ol>
+        <p>
+        <button class="button" type="button">Загрузить ещё</button>
+        </p>
+        <!--как сделать кнопку перехода между 4 и 10 страницами?-->
+        <ul class="pagination-item">
+          <li  class="buttom-pagination">
+          <a class="buttom" href="#">1</a>
+          </li>
+          <li class="buttom-pagination">
+          <a class="buttom" href="#">2</a>
+          </li>
+          <li class="buttom-pagination">
+          <a class="buttom" href="#">3</a>
+          </li>
+          <li class="buttom-pagination">
+          <a class="buttom" href="#">4</a>
+          </li>
+          <li class="buttom-pagination">
+          <a class="buttom" href="#">5</a>
+          </li>
+          <li class="buttom-pagination">
+          <a class="buttom" href="#">6</a>
+          </li>
+          <li class="buttom-pagination">
+          <a class="buttom" href="#">7</a></li>
+          <li class="buttom-pagination">
+          <a class="buttom" href="#">8</a></li>
+          <li class="buttom-pagination">
+          <a class="buttom" href="#">9</a>
+          </li>
+          <li class="buttom-pagination">
+            <a class="buttom" href="#">10</a>
+            </li>
+        </ul>
+        <p class="page-list">Гостиниц на странице:</p>
+        <form class="catalog-filter" action="#" method="get">
+          <select class="filter-form">
+            <option selected value="s1">4</option>
+          </select>
+        </form>
+      </section>
+      <section class="subscribe">
+      <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+      <p class="subscribe-text">Только полезная информация и никакого спама,
+        честное бойскаутское!</p>
+        <form class="subscribe-form" type="email" action="#" method="post"></form>
+        <label for="subscribe-email">Email</label>
+        <input class="field" placeholder="Ваш e-mail">
+        <button class="button subscribe-button" type="button">Подписаться</button>
+    </section>
+
+
+    <footer class="page-footer">
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a class="button" href="https://twitter.com/htmlacademy_ru">
+            <span class="visually-hidden">Твиттер</span>
+            </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="https://www.facebook.com/htmlacademy">
+            <span class="visually-hidden">Фейсбук</span>
+            </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS">
+          <span class="visually-hidden">Ютуб</span>
+          </a>
+        </li>
+      </ul>
+      <p class="about-text">
+      <a class="contact-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+
+      <a class="about-text" href="https://htmlacademy.ru/">
+      <img class="about-text" src="#" alt="сайт HTMLAcademy">
+      </a>
+    </p>
+    </footer>
+</main>
+</body>
+</html>
+

@@ -9,12 +9,12 @@
 
     <header class="page-header">
       <nav class="navigation">
-        <a href="#">
+        <a class="page-header-logo">
           <img class="page-header-logo" alt="Логотип Седона." src="">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Главная</a>
+            <a class="navigation-link">Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">О Седоне</a>
@@ -46,106 +46,73 @@
 
     <main class="main-index">
       <h1 class="visually-hidden">Седона</h1>
-      <!--Не понимаю, какой это раздел, какие теги применить и какой назначить класс
-
         <section class="main-page">
-          <img class="welcome" src="#" alt:"Welcome">
+          <img class="welcome" src="#" alt="Welcome">
           <img class="to-the-gorgeous" src="#" alt="to the gorgeous">
           <img class="Sedona" src="#" alt="Sedona">
         </section>
-
-
-      <section class="">
-        <p class="">Седона — небольшой городок в Аризоне,
-          заслуживающий большего!<p>
+      <section class="avantages">
+        <h2 class="">Седона — небольшой городок в Аризоне,
+          заслуживающий большего!</h2>
           <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!<p>
-          </section>
 
-          при использовании ol каждый пункт пронумеровывается, это убираем в css или нужен другой тег?
-
-
-           -->
-
-
-      <section class="avantages-first">
-        <h2 class="visually-hidden">Преимущества</h2>
         <ol class="avantages-first-list">
           <li class="avantages-first-item">
-            <b class="avantages-first-title">Настоящий
-              городок</b>
-              <img class="avantages-first-pic" src="#" alt="номер один">
-            <span class="avantages-first-text">Седона — не аттракцион для туристов, там течёт
-              своя жизнь</span>
-          </li>
-          <!--бэкграунд мы задаем в css? картинку с видом седоны (в пункте ниже) мы задаем отдельным пунктом списка или добавляем в пункт выше, к настоящему городку?-->
-          <li class="avantages-picture" >
-            <img class="avantages-picture" src="#" alt="Вид Седоны">
-          </li>
-          <li class="avantages-housing-item">
-            <img class="avantages-housing-pic" src="#" alt="иконка-домик">
-            <b class="avantages-housing-title">Жильё</b>
-            <span class="avantages-housing-text">Рекомендуем пожить
+            <h3 class="avantages-title">Настоящий
+              городок</h3>
+              <p class="avantages-first-text">— №1 —</p>
+            <p class="avantages-first-text">Седона — не аттракцион для туристов, там течёт
+              своя жизнь</p>
+               <img class="avantages-picture" src="#" alt="Вид Седоны">
+            <h3 class="avantages-housing-title">Жильё</h3>
+            <p class="avantages-housing-text">Рекомендуем пожить
               в настоящем мотеле,
-              всё как в кино!</span>
+              всё как в кино!</p>
+            <h3 class="avantages-food-title">Еда</h3>
+            <p class="avantages-food-text">Всегда заказывайте
+              топовый фирменный бургер, вы не разочаруетесь!</p>
+              <h3 class="avantages-souvenirs-title">Сувениры</h3>
+               <p class="avantages-souvenirs-text">Не только китайского,
+              но и настоящего местного производства!</p>
           </li>
-          <li class="avantages-food-item">
-            <img class="avantages-food-pic" src="#" alt="иконка-бургер">
-            <b class="avantages-food-title">Еда</b>
-            <span class="avantages-food-text">Всегда заказывайте
-              топовый фирменный бургер, вы не разочаруетесь!</span>
-          </li>
-          <li class="avantages-souvenirs-item">
-            <img class="avantages-souvenirs-pic" src="#" alt="иконка-подарок">
-            <b class="avantages-souvenirs-title">Сувениры</b>
-            <span class="avantages-souvenirs-text">Не только китайского,
-              но и настоящего местного производства!</span>
-          </li>
-        </ol>
-        </section>
 
-        <section class="avantages-second">
-          <ol class="avantages-second-list">
             <li class="avantages-second-item">
               <img class="avantages-second-picture" src="#" alt="Мост дьявола">
-            </li>
-            <li class="avantages-second-item">
-                <b class="avantages-second-title">Там есть
-                  мост дьявола</b>
-                  <img class="avantages-second-pic" src="#" alt="номер два">
-                <span class="avantages-second-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</span>
+              <h3 class="avantages-title">Там есть
+                  мост дьявола</h3>
+                  <p class="avantages-text">-№2-</p>
+                <p class="avantages-second-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </li>
               <li class="avantages-second-item">
-                <b class="avantages-third-title">Небольшая
-                  площадь</b>
-                  <img class="avantages-third-pic" src="#" alt="номер три">
-                <span class="avantages-third-text">Все достопримечательности
-                  находятся очень близко</span>
+                <h3 class="avantages-title">Небольшая
+                  площадь</h3>
+                  <p class="avantages-text">— №3 —</p>
+                <p class="avantages-third-text">Все достопримечательности
+                  находятся очень близко</p>
               </li>
               <li class="avantages-fourth-item">
-                <b class="avantages-fourth-title">Красивая
-                  дорога</b>
-                  <img class="avantages-fourth-pic" src="#" alt="номер четыре">
-                <span class="avantages-fourth-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</span>
+                <h3 class="avantages-title">Красивая
+                  дорога</h3>
+                  <p class="avantages-text">— №4 —</p>
+                <p class="avantages-fourth-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
               </li>
               <li class="avantages-fifth-item">
-                <b class="avantages-fifth-title">Мало
-                  туристов</b>
-                  <img class="avantages-fifth-pic" src="#" alt="номер пять">
-                <span class="avantages-fifth-text">Большинство едет в Гранд Каньон и толпится там</span>
+                <h3 class="avantages-title">Мало
+                  туристов</h3>
+                  <p class="avantages-text">— №5 —</p>
+                <p class="avantages-text">Большинство едет в Гранд Каньон и толпится там</p>
               </li>
           </ol>
         </section>
 
         <section class="appoitment">
           <h2 class="appoitment-title">Поиск гостиницы</h2>
-          <p class="appoitment-text">
-            <b>Заинтересовались?</b>
-          </p>
-          <p class="appoitment-text">Укажите предполагаемые даты поездки,
+          <p class="appoitment-text">Заинтересовались?
+            <br>
+            Укажите предполагаемые даты поездки,
             и мы покажем вам лучшие предложения гостиниц в Седоне
             </p>
-            <!--из макета копируется 1 фраза в разном регистре, исправляем вручную? если на макете один регистр, а после копирования получается другой, исправляем самостоятельно?-->
-            <a class="button" href="#" >ПОИСК ГОСТИНИЦЫ В седоне</a>>
+            <a class="button" href="#" >ПОИСК ГОСТИНИЦЫ в седоне</a>>
         </section>
         <section class="subscribe">
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
@@ -154,29 +121,33 @@
             <form class="subscribe-form" type="email" action="#" method="post"></form>
             <label for="subscribe-email">Email</label>
             <input class="field" placeholder="Ваш e-mail">
-            <button class="button subscribe-button" type="subscribe">Подписаться</button>
+            <button class="button subscribe-button" type="button">Подписаться</button>
         </section>
         <footer class="page-footer">
           <ul class="footer-social-list">
             <li class="footer-social-item">
-              <a class="button" href="https://twitter.com/htmlacademy_ru"></a>
+              <a class="button" href="https://twitter.com/htmlacademy_ru">
                 <span class="visually-hidden">Твиттер</span>
+                </a>
             </li>
             <li class="footer-social-item">
-              <a class="button" href="https://www.facebook.com/htmlacademy"></a>
+              <a class="button" href="https://www.facebook.com/htmlacademy">
                 <span class="visually-hidden">Фейсбук</span>
+                </a>
             </li>
             <li class="footer-social-item">
-              <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS"></a>
+              <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS">
               <span class="visually-hidden">Ютуб</span>
+              </a>
             </li>
           </ul>
-          <address class="contacts-address">
-              <a class="contact-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
-          </address>
-          <a class="about-me" href="https://htmlacademy.ru/">
-          <img class="about me" src="#" alt="сайт HTMLAcademy">
+          <p class="about-text">
+          <a class="contact-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+
+          <a class="about-text" href="https://htmlacademy.ru/">
+          <img class="about-text" src="#" alt="сайт HTMLAcademy">
           </a>
+        </p>
         </footer>
     </main>
   </body>
