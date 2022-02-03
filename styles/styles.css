@@ -60,7 +60,7 @@ body {
   position: center;
 }
 
-.advantages-tagline{
+.advantages-tagline {
   color: black;
   font-weight: bold;
   font-size: 30px;
@@ -79,7 +79,7 @@ body {
 
 .advantages-first-item {
   color: #ffffff;
-  background-color : #83B3D3;
+  background-color: #83B3D3;
 }
 
 .inner-list {
@@ -139,12 +139,11 @@ body {
 
 .subscribe {
   color: white;
-  background-image: url("/images/index-subscribe-background.jpg");
-  ;
+  background-image: url("/images/index-subscribe-background.jpg");;
 
 }
 
-.subscribe-title{
+.subscribe-title {
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
