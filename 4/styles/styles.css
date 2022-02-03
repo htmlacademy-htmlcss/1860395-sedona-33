@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.navigation-link {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-page {
+  background-image: url("../images/intro/index-background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+.intro {
+  padding-left: 371px;
+  padding-top: 51px;
+  padding-right: 371px;
+  position: center;
+
+  background-size: 100% auto;
+}
+
+.advantages {
+  text-align: center;
+}
+
+.advantages-tagline{
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-first-list {
+  color: #ffffff;
+  background-color : #83B3D3;
+}
+
+.inner-list {
+  color: black;
+
+}
+
+.advantages-third-item {
+  color: black;
+
+}
+
+.advantages-fourth-item {
+  color: black;
+}
+
+.advantages-fifth-item {
+  color: black;
+}
+
+.appointment-text {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.appointment-inner-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+}
+
+.subscribe {
+  color: white;
+  background-image: url("/images/index-subscribe-background.jpg");
+
+}
+
+.subscribe-title{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.subscribe-text {
+  font-size: 22px;
+  line-height: 26px;
+}
