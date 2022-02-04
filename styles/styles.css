@@ -1,0 +1,336 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.navigation-link {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.navigation-search {
+  background-image: url("../images/search.svg");
+  background-repeat: no-repeat;
+}
+
+.navigation-favorite {
+  background-image: url("../images/favorite.svg");
+  background-repeat: no-repeat;
+}
+
+.main-page {
+  background-color: #83B3D3;
+  background-image: url("../images/intro/zigzag-image.svg"), url("../images/intro/index-background.jpg");
+  background-size: auto, cover;
+  background-position: bottom;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+
+}
+
+.intro {
+  padding-left: 371px;
+  padding-top: 51px;
+  padding-right: 371px;
+
+}
+
+.advantages-tagline {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-first-item {
+  color: #ffffff;
+  background-color: #83B3D3;
+}
+
+.inner-list {
+  color: black;
+
+}
+
+.advantages-housing {
+  background-color: hsl(204 48% 67% / 0.2);
+}
+
+.advantages-souvenirs {
+  background-color: hsl(204 48% 67% / 0.12);
+}
+
+.advantages-second-item {
+  background-color: #83B3D3;
+  color: white;
+}
+
+.advantages-third-item {
+  background-color: hsl(204 48% 67% / 0.12);
+
+}
+
+.advantages-fourth-item {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-fifth-item {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.appointment-text {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.appointment-inner-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.button-link {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+
+  background-color: #756257;
+  border-radius: 10px;
+}
+
+.subscribe {
+  color: white;
+  background-image: url("../images/index-subscribe-background.jpg");;
+
+}
+
+.subscribe-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.subscribe-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.field {
+  background: #F2F2F2;
+  width: 600px;
+  height: 60px;
+}
+
+.subscribe-button {
+  background-color: #83B3D3;
+  color: white;
+  width: 200px;
+  height: 61px;
+}
+
+.footer-social-item {
+  text-align: left;
+}
+
+.button-twitter {
+  background-image: url("../images/footer/tvitter-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.button-facebook {
+  background-image: url("../images/footer/facebook-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.button-youtube {
+  background-image: url("../images/footer/youtube-icon.svg");
+  background-repeat: no-repeat;
+}
+
+
+.contact-phone-number {
+  font-style: normal;
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+
+}
+
+.about-text {
+  text-align: right;
+}
+
+.search-form {
+  background-image: url("../images/filter-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #83B3D3;
+  color: white;
+}
+
+.inner-title {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.breadcrumbs-main {
+  background-image: url("../images/breadcrumbs/bradcrumbs-main.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.inner-subscribe-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  width: 160px;
+  height: 48px;
+}
+
+.reset-button {
+  background-color: white;
+  font-size: 18px;
+  line-height: 23px;;
+}
+
+.search-results {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  text-transform: uppercase;
+  text-align: left;
+
+}
+
+.filter-form {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.list-view {
+  background-image: url("../images/view-catalog/view-mode-tile.svg");
+  background-repeat: no-repeat;
+
+}
+
+.icon-view {
+  background-image: url("../images/view-catalog/view-mode-slideshow.svg");
+  background-repeat: no-repeat;
+
+}
+
+.table-view {
+  background-image: url("../images/view-catalog/view-mode-1.svg");
+  background-repeat: no-repeat;
+}
+
+.catalog-item-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: black;
+  text-decoration: none;
+}
+
+.catalog-text {
+  font-size: 18px;
+  line-height: 23px;
+
+}
+
+.link-favorite {
+  text-decoration: none;
+
+}
+
+.rating-hotel1 {
+  background-image: url("../images/rating-stars/rating-stars-first.svg");
+  background-repeat: no-repeat;
+}
+
+.rating-hotel2 {
+  background-image: url("../images/rating-stars/rating-stars-second.svg");
+  background-repeat: no-repeat;
+}
+
+.rating-hotel3 {
+  background-image: url("../images/rating-stars/rating-stars-third.svg");
+  background-repeat: no-repeat;
+}
+
+.rating-hotel4 {
+  background-image: url("../images/rating-stars/rating-stars-fourth.svg");
+  background-repeat: no-repeat;
+}
+
+.button-pagination {
+  color: white;
+  background-color: #83B3D3;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+.filter-form {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.page-list {
+  font-size: 18px;
+  line-height: 23px;
+}
