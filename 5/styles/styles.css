@@ -31,6 +31,10 @@ body {
   color: inherit;
 }
 
+.navigation-user {
+  text-align: right;
+}
+
 .navigation-search {
   background-image: url("../images/search.svg");
   background-repeat: no-repeat;
