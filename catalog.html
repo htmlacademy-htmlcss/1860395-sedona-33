@@ -13,7 +13,7 @@
 <header class="page-header">
   <nav class="navigation">
     <a href="index.html">
-      <img class="page-header-logo" alt="Логотип Седона." src="images/logo.png">
+      <img class="page-header-logo" alt="Логотип Седона." src="images/logo.svg">
     </a>
     <ul class="navigation-list">
       <li class="navigation-item">
@@ -64,16 +64,16 @@
       </ol>
     </header>
     <section class="page-inner-filter">
-      <h2 class="visually-hidden">Фильтр Поиска</h2>
+      <h2 class="visually-hidden">Фильтр поиска</h2>
       <form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
-        <fieldset>
-          <legend>Инфраструктура:</legend>
+        <fieldset class="filter-button">
+          <legend class="filter-inner-title">Инфраструктура:</legend>
           <label><input type="checkbox" value="pool" checked>Бассейн</label>
           <label><input type="checkbox" value="parking" checked>Парковка</label>
           <label><input type="checkbox" value="wi-fi">Wi-Fi</label>
         </fieldset>
-        <fieldset>
-          <legend>Тип жилья:</legend>
+        <fieldset class="filter-button">
+          <legend class="filter-inner-title">Тип жилья:</legend>
           <label><input type="radio" name="apartments" value="hotel" checked>Гостиница</label>
           <label><input type="radio" name="apartments" value="motel">Мотель</label>
           <label><input type="radio" name="apartments" value="apartments">Апартаменты</label>
@@ -98,15 +98,15 @@
       <option value="expensive">Сначала дорогие</option>
     </select>
     <ul class="item-view">
-      <li class="list-view">
-        <a class="button-view"><span class="visually-hidden">Показать списком</span>
+      <li class="view">
+        <a class="list-view"><span class="visually-hidden">Показать списком</span>
         </a>
       </li>
-      <li class="icon-view">
-        <a class="button-view"><span class="visually-hidden">Показать крупными значками</span></a>
+      <li class="view">
+        <a class="icon-view"><span class="visually-hidden">Показать крупными значками</span></a>
       </li>
-      <li class="table-view">
-        <a class="button-view"><span class="visually-hidden">Показать таблицей</span></a>
+      <li class="view">
+        <a class="table-view"><span class="visually-hidden">Показать таблицей</span></a>
       </li>
     </ul>
 
@@ -115,7 +115,7 @@
         <a href="#">
           <img src="images/catalog/hotel-1.jpg" alt="Amara Resort & Spa">
         </a>
-        <a href="#">
+        <a class="catalog-title" href="#">
           <h3 class="catalog-item-title">Amara Resort & Spa</h3>
         </a>
         <p class="catalog-text">Гостиница</p>
@@ -129,7 +129,7 @@
         <a href="#">
           <img src="images/catalog/hotel-2.jpg" alt="Desert Quail Inn">
         </a>
-        <a href="#">
+        <a class="catalog-title" href="#">
           <h3 class="catalog-item-title">Desert Quail Inn</h3>
         </a>
         <p class="catalog-text">Гостиница</p>
@@ -143,7 +143,7 @@
         <a href="#">
           <img src="images/catalog/hotel-3.jpg" alt="Villas at Poco Diablo">
         </a>
-        <a href="#">
+        <a class="catalog-title" href="#">
           <h3 class="catalog-item-title">Villas at Poco Diablo</h3>
         </a>
         <p class="catalog-text">Гостиница</p>
@@ -157,7 +157,7 @@
         <a href="#">
           <img src="images/catalog/hotel-4.jpg" alt="GreenTree Inn">
         </a>
-        <a href="#">
+        <a class="catalog-title" href="#">
           <h3 class="catalog-item-title">GreenTree Inn</h3>
         </a>
         <p class="catalog-text">Гостиница</p>
@@ -185,22 +185,22 @@
       <li class="pagination">
         <a class="button-pagination" href="#">5</a>
       </li>
-      <li class="button">
+      <li class="pagination">
         <a class="button-pagination" href="#">6</a>
       </li>
-      <li class="button">
+      <li class="pagination">
         <a class="button-pagination" href="#">7</a></li>
-      <li class="button">
+      <li class="pagination">
         <a class="button-pagination" href="#">8</a></li>
-      <li class="button">
+      <li class="pagination">
         <a class="button-pagination" href="#">9</a>
       </li>
-      <li class="button">
+      <li class="pagination">
         <a class="button-pagination" href="#">10</a>
       </li>
     </ul>
     <p class="page-list">Гостиниц на странице:</p>
-    <select class="filter-form" name="catalog-filter-form">
+    <select class="page-list-form" name="catalog-filter-form">
       <option selected value="4">4</option>
       <option value="8">8</option>
       <option value="12">12</option>
@@ -241,7 +241,7 @@
     </p>
     <p class="about-text">
       <a class="about-link" href="https://htmlacademy.ru/">
-        <img class="about-pic" src="images/footer/footer-link.svg" width="115" height="33" alt="сайт HTMLAcademy">
+        <img class="about-pic" src="images/footer-link.svg" width="115" height="33" alt="сайт HTMLAcademy">
       </a>
     </p>
   </footer>
