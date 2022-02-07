@@ -56,7 +56,7 @@ body {
   background-color: #83B3D3;
   background-image: url("../images/intro/zigzag-image.svg"), url("../images/intro/index-background.jpg");
   background-size: auto, cover;
-  background-position: bottom, center;
+  background-position: bottom;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -339,6 +339,11 @@ body {
 
 .rating {
   background-color: rgba(242, 242, 242, 1);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center; /* в макете указано, что эта надпись находится по центру */
+  text-transform: uppercase;
 }
 
 .rating-hotel1 {
