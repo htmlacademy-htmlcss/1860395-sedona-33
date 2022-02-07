@@ -31,9 +31,6 @@ body {
   color: inherit;
 }
 
-.navigation-user {
-  text-align: right;
-}
 
 .navigation-search {
   background-image: url("../images/search.svg");
@@ -48,6 +45,7 @@ body {
 .navigation-button {
   background-color: #756257;
   color: white;
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.25;
   text-align: center;
@@ -58,18 +56,15 @@ body {
   background-color: #83B3D3;
   background-image: url("../images/intro/zigzag-image.svg"), url("../images/intro/index-background.jpg");
   background-size: auto, cover;
-  background-position: bottom;
+  background-position: bottom, center;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
-
 }
 
 .intro {
-  padding-left: 371px;
-  padding-top: 51px;
-  padding-right: 371px;
+  background-position: center;
 
 }
 
@@ -111,11 +106,11 @@ body {
 }
 
 .advantages-housing {
-  background-color: hsl(204 48% 67% / 0.2);
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-souvenirs {
-  background-color: hsl(204 48% 67% / 0.12);
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-second-item {
@@ -124,7 +119,7 @@ body {
 }
 
 .advantages-third-item {
-  background-color: hsl(204 48% 67% / 0.12);
+  background-color: rgba(131, 179, 211, 0.12);
 
 }
 
@@ -147,7 +142,14 @@ body {
   text-transform: uppercase;
 }
 
+.button {
+  font-family: inherit;
+}
+
+
+
 .button-link {
+  font-family: inherit;
   font-weight: bold;
   font-size: 20px;
   line-height: 1.8;
@@ -162,8 +164,6 @@ body {
 .subscribe {
   color: white;
   background-image: url("../images/index-subscribe-background.jpg");
-  width: 1200px;
-  height: 411px;
   text-align: center;
 
 }
@@ -182,8 +182,7 @@ body {
 
 .field {
   background: #F2F2F2;
-  width: 600px;
-  height: 60px;
+  font-family: inherit;
   font-size: 18px;
   line-height: 1.44;
 }
@@ -191,17 +190,12 @@ body {
 .subscribe-button {
   background-color: #83B3D3;
   color: white;
-  width: 200px;
-  height: 61px;
   font-size: 20px;
   line-height: 1.3;
+  font-family: inherit;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
-}
-
-.footer-social-item {
-  text-align: left;
 }
 
 .button-twitter {
@@ -236,6 +230,7 @@ body {
 }
 
 .search-form {
+  font-family: inherit;
   background-image: url("../images/filter-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -266,12 +261,11 @@ body {
   font-size: 16px;
   line-height: 1.3;
   text-transform: uppercase;
-  width: 160px;
-  height: 48px;
 }
 
 .reset-button {
-  background-color: white;
+  background-color: transparent;
+  border-color: transparent;
   font-size: 18px;
   line-height: 1.3;
 }
@@ -286,6 +280,7 @@ body {
 }
 
 .filter-form {
+  font-family: inherit;
   font-size: 18px;
   line-height: 1.3;
 }
@@ -325,8 +320,6 @@ body {
 .hotels-list {
   font-size: 18px;
   line-height: 1.3;
-  text-align: center;
-
 }
 
 .catalog-title {
@@ -337,7 +330,6 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 1.3;
-  color: inherit;
 }
 
 .link-favorite {
@@ -345,36 +337,47 @@ body {
 
 }
 
+.rating {
+  background-color: rgba(242, 242, 242, 1);
+}
+
 .rating-hotel1 {
-  background-image: url("../images/rating-stars/rating-stars-first.svg");
-  background-repeat: no-repeat;
+  background-image: url("../images/star.svg");
+  background-repeat: repeat;
+  width: 91px;
+  height: 17px;
+
 }
 
 .rating-hotel2 {
-  background-image: url("../images/rating-stars/rating-stars-second.svg");
-  background-repeat: no-repeat;
+  background-image: url("../images/star.svg");
+  background-repeat: repeat;
+  width: 68px;
+  height: 17px;
 }
 
 .rating-hotel3 {
   background-image: url("../images/rating-stars/rating-stars-third.svg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  width: 43px;
+  height: 17px;
 }
 
 .rating-hotel4 {
   background-image: url("../images/rating-stars/rating-stars-fourth.svg");
-  background-repeat: no-repeat;
-}
-
-.pagination {
-  text-align: left;
+  background-repeat: repeat;
+  width: 43px;
+  height: 17px;
 }
 
 .button-pagination {
   color: white;
   background-color: #83B3D3;
+  font-family: inherit;
   font-weight: bold;
   font-size: 20px;
   line-height: 1.3;
+  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -383,9 +386,5 @@ body {
 .page-list {
   font-size: 18px;
   line-height: 1.3;
-  text-align: right;
 }
 
-.page-list-form {
-  text-align: right;
-}
