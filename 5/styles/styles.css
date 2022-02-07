@@ -357,14 +357,14 @@ body {
 }
 
 .rating-hotel3 {
-  background-image: url("../images/rating-stars/rating-stars-third.svg");
+  background-image: url("../images/star.svg");
   background-repeat: repeat;
   width: 43px;
   height: 17px;
 }
 
 .rating-hotel4 {
-  background-image: url("../images/rating-stars/rating-stars-fourth.svg");
+  background-image: url("../images/star.svg");
   background-repeat: repeat;
   width: 43px;
   height: 17px;
