@@ -57,16 +57,9 @@ body {
   background-image: url("../images/intro/zigzag-image.svg"), url("../images/intro/index-background.jpg");
   background-size: auto, cover;
   background-position: bottom;
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
   background-repeat: no-repeat;
 }
 
-.intro {
-  background-position: center;
-
-}
 
 .advantages {
   text-align: center;
