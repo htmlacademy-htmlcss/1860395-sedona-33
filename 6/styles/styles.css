@@ -1,0 +1,506 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 1.18;
+  color: black;
+  background-color: #ffffff;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+ .navigation {
+   display: flex;
+   width: 1200px;
+   margin: 0 auto;
+
+ }
+
+ .page-header-logo {
+   display: block;
+   margin-left: 70px;
+   margin-right: 47px;
+ }
+
+ .navigation-list {
+   width: 430px;
+   margin: 0;
+   padding: 0;
+ }
+
+ .navigation-user {
+   max-width: 300px;
+   margin-left: auto;
+ }
+
+.navigation-link {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.18;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.navigation-search {
+  background-image: url("../images/search.svg");
+  background-repeat: no-repeat;
+}
+
+.navigation-favorite {
+  background-image: url("../images/favorite.svg");
+  background-repeat: no-repeat;
+}
+
+.navigation-button {
+  background-color: #756257;
+  color: white;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-container {
+  flex-grow: 1;/*
+  width: 1200px;
+  margin: 0 auto; */
+}
+
+.main-page {
+  background-color: #83B3D3;
+  background-image: url("../images/intro/zigzag-image.svg"), url("../images/intro/index-background.jpg");
+  background-size: auto, cover;
+  background-position: bottom, top;
+  background-repeat: no-repeat;
+
+}
+
+.intro {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.advantages {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.17;
+
+}
+
+
+.advantages-list {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0;
+  padding:0;
+
+}
+
+
+
+.inner-list {
+
+}
+
+.advantages-tagline {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+}
+
+.advantages-tagline-text {
+  font-size: 22px;
+  line-height: 1.64;
+}
+
+.advantages-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
+.advantages-item {
+  width: 400px;
+  align-content: center;
+}
+
+.advantages-first-item {
+
+  color: #ffffff;
+  background-color: #83B3D3;
+
+}
+
+.inner-list {
+  color: inherit;
+}
+
+.advantages-housing {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-souvenirs {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-second-item {
+  background-color: #83B3D3;
+  color: white;
+}
+
+.advantages-third-item {
+  background-color: rgba(131, 179, 211, 0.12);
+
+}
+
+.advantages-fourth-item {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-fifth-item {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.appointment {
+  text-align: center;
+}
+
+.appointment-text {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.button {
+  font-family: inherit;
+}
+
+
+
+.button-link {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: #756257;
+  width: 575px;
+
+  border-radius: 10px;
+}
+
+.subscribe {
+  color: white;
+  background-image: url("../images/index-subscribe-background.jpg");
+  text-align: center;
+
+}
+
+.subscribe-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.subscribe-text {
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+.field {
+  background: #F2F2F2;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.44;
+}
+
+.subscribe-button {
+  background-color: #83B3D3;
+  color: white;
+  font-size: 20px;
+  line-height: 1.3;
+  font-family: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.page-footer-container {
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.footer-social-item {
+  width: 107px;
+  margin-right: 61px;
+  margin-left: 72px;
+}
+
+.button-twitter {
+  background-image: url("../images/tvitter-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.button-facebook {
+  background-image: url("../images/facebook-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.button-youtube {
+  background-image: url("../images/youtube-icon.svg");
+  background-repeat: no-repeat;
+}
+.contact-phone{
+  text-align: center;
+  width: 720px;
+  margin-left: auto;
+  margin-right: 53px;
+}
+
+.contact-phone-number {
+  font-style: normal;
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.about-text {
+  margin-right: 72px;
+  margin-left: auto;
+}
+
+.page-inner-filter {
+display: flex;
+  justify-content: space-between;
+  width: 1200px;
+
+}
+
+.search-form {
+  font-family: inherit;
+  background-image: url("../images/filter-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #83B3D3;
+  color: white;
+}
+
+.filter-checkbox-container {
+  align-items: flex-start;
+  width: 150px;
+  margin-left: 111px;
+  margin-right: 67px;
+}
+
+.filter-radio-container {
+  width: 150px;
+  margin-left: auto;
+  margin-right: 167px;
+}
+
+.range-container {
+  width: 287px;
+  margin-left: auto;
+  margin-right: 81px;
+}
+
+.inner-title {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 1.3;
+  color: #FFFFFF;
+}
+
+.breadcrumbs-main {
+  background-image: url("../images/breadcrumbs/bradcrumbs-main.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.inner-subscribe-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.reset-button {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.search-results {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: left;
+
+}
+
+.filter-form {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.filter-inner-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.filter-button {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.item-view {
+  text-align: right;
+}
+
+.list-view {
+  background-image: url("../images/view-catalog/view-mode-tile.svg");
+  background-repeat: no-repeat;
+
+}
+
+.icon-view {
+  background-image: url("../images/view-catalog/view-mode-slideshow.svg");
+  background-repeat: no-repeat;
+
+}
+
+.table-view {
+  background-image: url("../images/view-catalog/view-mode-1.svg");
+  background-repeat: no-repeat;
+}
+
+.hotels-list {
+  width: 1056px;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.catalog-title {
+  color: inherit;
+  text-decoration: none;
+}
+.catalog-item-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+.link-favorite {
+  text-decoration: none;
+
+}
+
+.rating {
+  background-color: rgba(242, 242, 242, 1);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center; /* в макете указано, что эта надпись находится по центру */
+  text-transform: uppercase;
+}
+
+.rating-hotel1 {
+  background-image: url("../images/star.svg");
+  background-repeat: repeat;
+  width: 91px;
+  height: 17px;
+
+}
+
+.rating-hotel2 {
+  background-image: url("../images/star.svg");
+  background-repeat: repeat;
+  width: 68px;
+  height: 17px;
+}
+
+.rating-hotel3 {
+  background-image: url("../images/star.svg");
+  background-repeat: repeat;
+  width: 43px;
+  height: 17px;
+}
+
+.rating-hotel4 {
+  background-image: url("../images/star.svg");
+  background-repeat: repeat;
+  width: 43px;
+  height: 17px;
+}
+
+.button-pagination {
+  color: white;
+  background-color: #83B3D3;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.3;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+.page-list {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
