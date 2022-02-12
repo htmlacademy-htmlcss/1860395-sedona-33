@@ -38,7 +38,6 @@ body {
   display: flex;
   width: 1200px;
   margin: 0 auto;
-
 }
 
 .page-header-logo {
@@ -101,7 +100,6 @@ body {
   background-size: auto, cover;
   background-position: bottom, top;
   background-repeat: no-repeat;
-
 }
 
 .intro {
@@ -119,7 +117,6 @@ body {
   text-align: center;
   font-size: 18px;
   line-height: 1.17;
-
 }
 
 .advantages-list {
@@ -135,7 +132,6 @@ body {
   font-size: 30px;
   line-height: 1.2;
   text-transform: uppercase;
-
 }
 
 .advantages-tagline-text {
@@ -168,7 +164,6 @@ body {
   width: 1200px;
   margin: 0;
   padding: 0;
-
 }
 
 .advantages-food {
@@ -194,7 +189,6 @@ body {
 
 .advantages-third-item {
   background-color: rgba(131, 179, 211, 0.12);
-
 }
 
 .advantages-fourth-item {
@@ -220,7 +214,6 @@ body {
   font-family: inherit;
 }
 
-
 .button-link {
   font-family: inherit;
   font-weight: bold;
@@ -231,7 +224,6 @@ body {
   color: white;
   background-color: #756257;
   width: 575px;
-
   border-radius: 10px;
 }
 
@@ -239,7 +231,6 @@ body {
   color: white;
   background-image: url("../images/index-subscribe-background.jpg");
   text-align: center;
-
 }
 
 .subscribe-title {
@@ -321,14 +312,12 @@ body {
 }
 
 .page-container {
-
   width: 1200px;
 }
 
 .page-inner-filter {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .search-form {
@@ -349,21 +338,18 @@ body {
   margin-left: 111px;
   margin-right: 67px;
   width: 200px;
-
 }
 
 .filter-radio-container {
   margin-left: auto;
   margin-right: 167px;
   width: 200px;
-
 }
 
 .range-container {
   margin-left: auto;
   margin-right: 81px;
   width: 287px;
-
 }
 
 .inner-title {
@@ -381,8 +367,6 @@ body {
 
 .breadcrumbs {
   display: flex;
-
-
 }
 
 .breadcrumbs-link {
@@ -410,7 +394,6 @@ body {
   line-height: 1.3;
   text-transform: uppercase;
   text-align: left;
-
 }
 
 .filter-form {
@@ -439,13 +422,11 @@ body {
 .list-view {
   background-image: url("../images/view-catalog/view-mode-tile.svg");
   background-repeat: no-repeat;
-
 }
 
 .icon-view {
   background-image: url("../images/view-catalog/view-mode-slideshow.svg");
   background-repeat: no-repeat;
-
 }
 
 .table-view {
@@ -484,12 +465,8 @@ body {
   line-height: 1.3;
 }
 
-
-
-
 .link-favorite {
   text-decoration: none;
-
 }
 
 .rating {
@@ -506,7 +483,6 @@ body {
   background-repeat: repeat;
   width: 91px;
   height: 17px;
-
 }
 
 .rating-hotel2 {
@@ -540,7 +516,6 @@ body {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-
 }
 
 .page-list {
