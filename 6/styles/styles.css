@@ -34,6 +34,7 @@ body {
   margin: 0 auto;
   width: 1200px;
   background-color: white;
+  box-shadow: 0 0 15px #E5E5E5;
 }
 
 .navigation {
@@ -41,13 +42,6 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
-
-/*
-.page-header {
-  display: flex;
-  width: 1060px;
-  align-content: center;
-}*/
 
 .page-header-logo {
   display: block;
@@ -174,20 +168,17 @@ body {
 }
 
 .advantages-housing {
-  background-color: rgba(131, 179, 211, 0.12);
-  /*width: 400px;*/
+  background-color: rgba(255, 255, 255, 0.8);
   flex-grow: 1;
 }
 
 .advantages-food {
   background-color: white;
-  /* width: 400px;*/
   flex-grow: 1;
 }
 
 .advantages-souvenirs {
-  background-color: rgba(131, 179, 211, 0.12);
-  /* width: 400px;*/
+  background-color: rgba(255, 255, 255, 0.8);
   flex-grow: 1;
 }
 
