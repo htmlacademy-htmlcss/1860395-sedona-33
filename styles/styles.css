@@ -30,6 +30,17 @@ body {
   margin: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   margin: 0 auto;
   width: 1200px;
@@ -50,9 +61,13 @@ body {
 }
 
 .navigation-list {
+  display: flex;
+  flex-wrap: wrap;
   width: 430px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+
 }
 
 .navigation-user {
@@ -61,6 +76,8 @@ body {
 }
 
 .navigation-link {
+  display: block;
+  padding: 20px 17px;
   font-weight: bold;
   font-size: 20px;
   line-height: 1.18;
@@ -69,6 +86,10 @@ body {
   color: inherit;
 }
 
+.navigation-user .navigation-link {
+  min-width: 18px;
+  min-height: 37px;
+}
 
 .navigation-search {
   background-image: url("../images/search.svg");
@@ -92,8 +113,7 @@ body {
 
 .main-container {
   flex-grow: 1;
-  /* width: 1200px;
-     margin: 0 auto;*/
+  margin: 0 auto;
 }
 
 .main-page {
@@ -111,18 +131,15 @@ body {
 }
 
 .page-container {
-  width: 1200px;
+  width: auto;
   margin: 0 auto;
-}
-
-li {
-  list-style-type: none;
 }
 
 .advantages {
   text-align: center;
   font-size: 18px;
   line-height: 1.17;
+  padding-top: 63px;
 }
 
 .advantages-list {
@@ -138,11 +155,15 @@ li {
   font-size: 30px;
   line-height: 1.2;
   text-transform: uppercase;
+
 }
 
 .advantages-tagline-text {
   font-size: 22px;
   line-height: 1.64;
+  padding-top: 31px;
+  padding-bottom: 117px;
+  margin: 0;
 }
 
 .advantages-title {
@@ -150,16 +171,19 @@ li {
   font-size: 24px;
   line-height: 1.17;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .advantages-item {
   align-content: center;
+  list-style-type: none;
 }
 
 .advantages-first-item {
   width: 100%;
   color: #ffffff;
   background-color: #83B3D3;
+  margin: 0;
 }
 
 .inner-list {
@@ -169,21 +193,30 @@ li {
   margin: 0;
   padding: 0;
   color: black;
+  list-style-type: none;
 }
 
 .advantages-housing {
   background-color: rgba(255, 255, 255, 0.8);
   flex-grow: 1;
+  padding-top: 184px;
+}
+
+.advantages-housing-text {
+  margin: 0;
+  padding: 0 75px 79px;
 }
 
 .advantages-food {
   background-color: white;
   flex-grow: 1;
+  padding-top: 184px;
 }
 
 .advantages-souvenirs {
   background-color: rgba(255, 255, 255, 0.8);
   flex-grow: 1;
+  padding-top: 184px;
 }
 
 
@@ -191,21 +224,25 @@ li {
   background-color: #83B3D3;
   color: white;
   width: 100%;
+  margin: 0;
 }
 
 .advantages-third-item {
   background-color: rgba(131, 179, 211, 0.12);
   flex-grow: 1;
+  margin-top: 0;
 }
 
 .advantages-fourth-item {
   background-color: rgba(131, 179, 211, 0.2);
   flex-grow: 1;
+  margin: 0;
 }
 
 .advantages-fifth-item {
   background-color: rgba(131, 179, 211, 0.12);
   flex-grow: 1;
+  margin: 0;
 }
 
 .appointment {
@@ -217,6 +254,13 @@ li {
   font-size: 30px;
   line-height: 1.2;
   text-transform: uppercase;
+  padding-top: 91px;
+  margin: 0;
+}
+
+.appointment-inner-text {
+  padding-top: 29px;
+  padding-bottom: 56px;
 }
 
 .button {
@@ -234,12 +278,14 @@ li {
   background-color: #756257;
   width: 575px;
   border-radius: 10px;
+  padding: 15px 0;
 }
 
 .subscribe {
   color: white;
   background-image: url("../images/index-subscribe-background.jpg");
   text-align: center;
+  margin-top: 93px;
 }
 
 .subscribe-title {
@@ -247,11 +293,21 @@ li {
   font-size: 30px;
   line-height: 1.2;
   text-transform: uppercase;
+  padding-top: 94px;
+  margin-top: 94px;
+  margin-bottom: 0;
 }
 
 .subscribe-text {
   font-size: 22px;
   line-height: 1.18;
+  padding-top: 29px;
+  margin: 0;
+}
+
+.subscribe-form {
+  padding-top: 46px;
+  padding-bottom: 94px;
 }
 
 .field {
@@ -278,8 +334,18 @@ li {
   width: 1200px;
 }
 
+.footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+}
+
 .footer-social-item {
   width: 107px;
+  margin-top: 50px;
   margin-right: 61px;
   margin-left: 72px;
 }
@@ -287,6 +353,8 @@ li {
 .button-twitter {
   background-image: url("../images/tvitter-icon.svg");
   background-repeat: no-repeat;
+  width: 18px;
+  height: 16px;
 }
 
 .button-facebook {
@@ -366,6 +434,12 @@ li {
   font-size: 60px;
   line-height: 1.3;
   color: #FFFFFF;
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+
+.breadcrumbs-item {
+  margin-right: 26px;
 }
 
 .breadcrumbs-main {
@@ -376,11 +450,28 @@ li {
 
 .breadcrumbs {
   display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
 }
 
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 1.3;
+}
+
+.filter-checkbox-container {
+  margin: 0;
+  padding: 0;
+  border: none;
+
+}
+
+.filter-button {
+  display: flex;
+  margin-left: 71px;
+  border: none;
 }
 
 .inner-subscribe-button {
@@ -403,6 +494,8 @@ li {
   line-height: 1.3;
   text-transform: uppercase;
   text-align: left;
+  margin-top: 43px;
+  margin-bottom: 63px;
 }
 
 .filter-form {
@@ -411,6 +504,23 @@ li {
   font-family: inherit;
   font-size: 18px;
   line-height: 1.3;
+}
+
+.sorting-container {
+  width: 287px;
+  height: 48px;
+  margin-top: 43px;
+  margin-bottom: 63px;
+  margin-left: 71px;
+}
+
+.user-menu {
+  display: flex;
+
+}
+
+.view {
+  list-style-type: none;
 }
 
 .filter-inner-title {
@@ -445,8 +555,6 @@ li {
 }
 
 .hotels-list {
-  display: flex;
-  flex-wrap: wrap;
   font-size: 18px;
   line-height: 1.3;
   padding-left: 72px;
@@ -459,6 +567,7 @@ li {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 0;
+
 }
 
 .catalog-title {
@@ -468,6 +577,7 @@ li {
 
 .catalog-item {
   padding-left: 20px;
+  list-style-type: none;
 }
 
 .catalog-item-title {
@@ -517,7 +627,28 @@ li {
   height: 17px;
 }
 
+.button-show-more {
+  margin: 30px 0;
+}
+
+.pagination-list {
+  display: flex;
+  margin: 30px 0;
+}
+
+.pagination-item {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .button-pagination {
+  display: block;
+  box-sizing: border-box;
+  width: 55px;
+  height: 55px;
+  padding: 15px;
   color: white;
   background-color: #83B3D3;
   font-family: inherit;
@@ -529,8 +660,24 @@ li {
   text-decoration: none;
 }
 
+.pagination:not(:last-child) {
+  margin-right: 8px;
+}
+
 .page-list {
   font-size: 18px;
   line-height: 1.3;
+  margin-right: 51px;
+}
+
+.page-list-form {
+
+  width: 160px;
+  height: 48px;
+  border: 2px solid #E6E6E6;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 15px;
+
 }
 
