@@ -50,13 +50,14 @@ body {
 
 .navigation {
   display: flex;
-  width: 1200px;
   margin: 0 auto;
+  padding: 0 70px;
+  height: 65px;
 }
 
 .page-header-logo {
   display: block;
-  margin-left: 70px;
+  height: 70px;
 }
 
 .navigation-list {
@@ -74,23 +75,25 @@ body {
   margin-left: auto;
 }
 
+.navigation-item {
+  height: 30px;
+}
+
 .navigation-link {
   display: block;
   box-sizing: border-box;
   padding: 20px 17px;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 1.18;
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
+    font-size: 20px;
+    line-height: 1.18;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
 }
 
 .navigation-user .navigation-link {
   min-width: 30px;
   min-height: 37px;
-
-
 }
 
 .navigation-search {
