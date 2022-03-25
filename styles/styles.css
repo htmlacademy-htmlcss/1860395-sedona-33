@@ -50,7 +50,6 @@ body {
 
 .navigation {
   display: flex;
-  margin: 0 auto;
   padding: 0 70px;
   height: 65px;
 }
@@ -64,8 +63,7 @@ body {
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
-  /*width: 430px;*/
-  margin: 0;
+  margin-left: 34px;
   padding: 0;
   list-style-type: none;
   align-items: center;
@@ -77,9 +75,15 @@ body {
   margin-left: auto;
 }
 
+.navigation-user-menu {
+  margin-left: 24px;
+  position: relative;
+  align-items: center;
+}
+
 .navigation-item {
  /* padding: 17px 20px;*/
-  margin: 0;
+  margin-right: 34px;
   position: relative;
   align-items: center;
 }
@@ -87,7 +91,6 @@ body {
 .navigation-link {
   display: block;
   box-sizing: border-box;
-  /*padding: 20px 17px;*/
   font-weight: bold;
   font-size: 20px;
   line-height: 1.18;
@@ -118,28 +121,56 @@ body {
   background-color: #615048;
 }
 
+:current(li) {
+  /*border: 2px solid #756257;*/
+}
+
 .navigation-user .navigation-link {
   min-width: 30px;
   min-height: 37px;
 }
 
-.icon-favorite {
+.icon-user-menu {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   margin: auto;
+  fill: black;
 }
 
-.icon-search {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
+.icon-user-menu:hover {
+  fill: #756257;
 }
+
+.icon-user-menu:active {
+  fill: #756257;
+  opacity: 0.3;
+}
+
+.user-favorite {
+  display: flex;
+    flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #7DB550;
+  border-radius: 50%;
+  font-size: 10px;
+  line-height: 1.3;
+  text-align: center;
+  color: white;
+  width: 20px;
+  height: 20px;
+  transform: translate(18px);
+}
+
+.user-favorite:active {
+  color: #FFFFFF;
+  opacity: 0.3;
+  background-color: #7DB550;
+}
+
 
 .navigation-button {
   background-color: #756257;
@@ -406,10 +437,11 @@ body {
 }
 
 .button-search {
+  display: block;
+  box-sizing: border-box;
   padding: 15px;
-  width: 100%;
-  margin-right: 312px;
-  margin-left: 312px;
+  width: 575px;
+  margin: auto;
 }
 
 .subscribe {
@@ -498,20 +530,17 @@ body {
 
 .page-footer {
   display: grid;
-  grid-template-columns: 1fr 720px 1fr;
-  grid-template-rows: 120px;
+  grid-template-columns: 1fr min-content 1fr;
   margin: 0 auto;
-  /*padding-top: 40px;
-  padding-bottom: 40px;*/
-  width: 1200px;
-  position: relative;
-
+  padding: 40px 72px 40px 72px;
+  align-items: center;
 }
 
 .footer-social-list {
-  display: grid;
-  grid-template-columns: 1fr max-content 1fr;
-  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  /*justify-content: space-between;
+  align-items: center;*/
   padding: 0;
   list-style-type: none;
   margin-left: auto;
@@ -520,23 +549,18 @@ body {
 
 .footer-social-item {
   margin: 0;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   align-self: center;
 }
 
 .button-social {
-  width: 30px;
-  height: 30px;
+  display: block;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  background-color: antiquewhite;
   }
-/*
-.button-social-icon {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}*/
 
 .button-social:hover svg {
   fill: #68A2CA;
@@ -591,15 +615,6 @@ body {
 
 .about-pic {
   align-self: center;
-}
-
-.about-link {
-  position: absolute;
-  left: 950px;
-  top: 50px;
-  right: 0;
-  bottom: 0;
-
 }
 
 .about-link:hover {
